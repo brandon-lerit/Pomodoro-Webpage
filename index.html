@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pomodoro Extension</title>
+  <script src = "head.js"></script>
+  <link rel="stylesheet" type="text/css" href="site.css">
+</head>
+
+<body>
+    <h1>
+      Pomodoro Timer
+    </h1>
+
+    <div class = "clocks">
+    <div id = "timerRound">25:00</div>
+    <div id = "timerBreak">05:00</div>
+    </div>
+
+    <div class = "timer">
+      <div class = "timer-top"></div>
+      <div class = "timer-bottom"></div>
+    </div>
+
+    <div class = "button-box">
+      <button class = "button" id = "start-round" onclick = "startTimeRound()">Start Round</button>
+      <button class = "button" id = "start-break" onclick = "startTimeBreak()">Start Break</button>
+    </div>
+</body>
+
+</html>
